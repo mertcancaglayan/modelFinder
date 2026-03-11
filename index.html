@@ -1,13 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>PAW Door Selection Tool</title>
-</head>
-<body>
-    
-    <script type="module" src="script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>PAW Door Selection Tool</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>PAW Industrial High-Speed PVC Door Selection Tool</h1>
+				<p>Enter your specifications to filter compatible PAW Door models.</p>
+			</header>
+
+			<div class="filter-section" id="filter-inputs">
+				<div class="input-group">
+					<label for="width">Width (mm)</label>
+					<input type="number" id="width" placeholder="e.g. 5000" />
+				</div>
+				<div class="input-group">
+					<label for="height">Height (mm)</label>
+					<input type="number" id="height" placeholder="e.g. 3000" />
+				</div>
+				<div class="input-group">
+					<label for="windLoad">Wind Load Class</label>
+					<select id="windLoad">
+						<option value="0">Class 0</option>
+						<option value="1">Class 1</option>
+						<option value="2">Class 2</option>
+						<option value="3">Class 3</option>
+					</select>
+				</div>
+				<div class="input-group">
+					<label for="indoorTemp">Min Indoor Temp (°C)</label>
+					<input type="number" id="indoorTemp" value="0" />
+				</div>
+				<div class="input-group">
+					<label for="outdoorTemp">Min Outdoor Temp (°C)</label>
+					<input type="number" id="outdoorTemp" value="0" />
+				</div>
+				<div class="input-group">
+					<label for="security">Security Required</label>
+					<select id="security">
+						<option value="false">No</option>
+						<option value="true">Yes</option>
+					</select>
+				</div>
+				<div class="input-group">
+					<label for="speedControl">Speed Control</label>
+					<select id="speedControl">
+						<option value="false">No</option>
+						<option value="true">Yes</option>
+					</select>
+				</div>
+				<div class="input-group">
+					<label for="doorLocation">Door Location</label>
+					<select id="doorLocation">
+						<option value="indoor">Indoor</option>
+						<option value="outdoor">Outdoor</option>
+					</select>
+				</div>
+				<div class="input-group">
+					<label for="frequencyUsage">Usage Frequency</label>
+					<select id="frequencyUsage">
+						<option value="low">Low (0-40 Vehicles)</option>
+						<option value="mid">Mid (40-80 Vehicles)</option>
+						<option value="high">High (80+ Vehicles)</option>
+					</select>
+				</div>
+				<div class="input-group">
+					<label for="specialUsage">Special Application</label>
+					<select id="specialUsage">
+						<option value="none">None</option>
+						<option value="robot">Robot Front</option>
+						<option value="conveyor">Conveyor</option>
+						<option value="pharma_food">Pharma or Food</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="door-grid" id="door-container">
+				<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted)">load the door data</p>
+			</div>
+		</div>
+
+		<script type="module" src="script.js"></script>
+	</body>
 </html>

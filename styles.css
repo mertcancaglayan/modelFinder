@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #d46525;
+	--accent-color: #b9541c;
+	--bg-color: #182230;
+	--card-bg: #333;
+	--text-main: #ffffff;
+	--text-muted: #7f8c8d;
+	--border-radius: 8px;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: var(--bg-color);
+	color: var(--text-main);
+	margin: 0;
+	padding: 20px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h1 {
+	color: var(--primary-color);
+	margin-bottom: 10px;
+}
