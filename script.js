@@ -465,16 +465,37 @@ const MODELS = [
 
 const displayDoors = (compatibleDoors) => {
   const gridDisplay = document.getElementById("door-container");
-  gridDisplay.innerHTML = ""
+  gridDisplay.innerHTML = "";
 
-  const list = document.createElement("ol");
-  list.innerHTML = compatibleDoors
+  gridDisplay.innerHTML = compatibleDoors
     .map((door) => {
-      return `<li>${door.name}</li>`;
+      return `
+  <article class="card">
+    
+    <a href="https://paw.com.tr" class="card-image">
+      <img 
+        src="https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-31.jpg" 
+        alt="${door.name}"
+        loading="lazy"
+      />
+    </a>
+
+    <div class="card-body">
+      <div class="card-header">
+        <h3 class="card-title">${door.name}</h3>
+        <span class="card-model">${door.modelCode}</span>
+      </div>
+
+      <a href="https://paw.com.tr" class="card-button">
+        View Details
+      </a>
+    </div>
+
+  </article>
+`;
     })
     .join("");
 
-  gridDisplay.appendChild(list)
 };
 
 const getInputValues = () => ({
