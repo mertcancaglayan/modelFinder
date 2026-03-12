@@ -463,9 +463,18 @@ const MODELS = [
   },
 ];
 
-const getInputValues = () => {
-  return false;
-};
+const getInputValues = () => ({
+  width: document.getElementById("width-input").value || 0,
+  height: document.getElementById("height-input").value || 0,
+  windLoad: document.getElementById("windLoad").value || 0,
+  indoorTemp: document.getElementById("indoorTemp").value || 0,
+  outdoorTemp: document.getElementById("outdoorTemp").value || 0,
+  hasSecurity: document.getElementById("security").value || false,
+  hasSpeedControl: document.getElementById("speedControl").value || false,
+  doorLocation: document.getElementById("doorLocation").value || "indoor",
+  frequencyUsage: document.getElementById("frequencyUsage").value || "low",
+  specialUsage: document.getElementById("specialUsage").value || "none",
+});
 
 const addEventListeners = () => {
   const formElements = document.querySelectorAll(
@@ -473,7 +482,7 @@ const addEventListeners = () => {
   );
   formElements.forEach((e) => {
     e.addEventListener("change", () => {
-      getInputValues();
+      console.log(getInputValues());
     });
   });
 };
