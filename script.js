@@ -533,10 +533,11 @@ const isCompatible = (door, f) => {
     return false;
   }
 
-  if (f.frequencyUsage !== door.usageFrequency && !f.hasSpeedControl)
+  if (f.frequencyUsage !== door.usageFrequency && !f.hasSpeedControl) {
     return false;
+  }
 
-  if (f.specialUsage && f.specialUsage !== door.specialUse) return false;
+  if (door.specialUse && f.specialUsage !== door.specialUse) return false;
 
   if (f.windLoad > door.windLoad) return false;
 
