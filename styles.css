@@ -38,3 +38,8 @@ h1 {
 	color: var(--primary-color);
 	margin-bottom: 10px;
 }
+
+
+#door-container {
+	margin-top: 50px;	
+}
