@@ -10,7 +10,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -24,7 +24,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -38,7 +38,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -52,7 +52,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: "robot",
+    specialUsage: "robot",
     location: "indoor",
   },
   {
@@ -66,7 +66,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "robot",
+    specialUsage: "robot",
     location: "indoor",
   },
   {
@@ -80,7 +80,7 @@ const MODELS = [
     hasSafety: true,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "robot",
+    specialUsage: "robot",
     location: "both",
   },
   {
@@ -94,7 +94,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: "pharma-food",
+    specialUsage: "pharma_food",
     location: "indoor",
   },
   {
@@ -108,7 +108,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "pharma-food",
+    specialUsage: "pharma_food",
     location: "indoor",
   },
   {
@@ -122,7 +122,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: "conveyor",
+    specialUsage: "conveyor",
     location: "indoor",
   },
   {
@@ -136,7 +136,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "conveyor",
+    specialUsage: "conveyor",
     location: "indoor",
   },
   {
@@ -150,7 +150,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -164,7 +164,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -178,7 +178,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -192,7 +192,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -206,7 +206,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -220,7 +220,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -234,7 +234,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -248,7 +248,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -262,7 +262,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -276,7 +276,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -290,7 +290,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -304,7 +304,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -318,7 +318,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -332,7 +332,7 @@ const MODELS = [
     hasSafety: true,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -346,7 +346,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -360,7 +360,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -374,7 +374,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -388,7 +388,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -402,7 +402,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -416,7 +416,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -430,7 +430,7 @@ const MODELS = [
     hasSafety: true,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
   },
   {
@@ -444,7 +444,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
   {
@@ -458,7 +458,7 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
   },
 ];
@@ -495,7 +495,6 @@ const displayDoors = (compatibleDoors) => {
 `;
     })
     .join("");
-
 };
 
 const getInputValues = () => ({
@@ -508,10 +507,7 @@ const getInputValues = () => ({
   hasSpeedControl: document.getElementById("speedControl").value === "true",
   doorLocation: document.getElementById("doorLocation").value || "both",
   frequencyUsage: document.getElementById("frequencyUsage").value || "low",
-  specialUsage:
-    document.getElementById("specialUsage").value === "none"
-      ? null
-      : document.getElementById("specialUsage").value || null,
+  specialUsage: document.getElementById("specialUsage").value || "none",
 });
 
 const isCompatible = (door, f) => {
@@ -537,7 +533,7 @@ const isCompatible = (door, f) => {
     return false;
   }
 
-  if (door.specialUse && f.specialUsage !== door.specialUse) return false;
+  if (f.specialUsage !== door.specialUsage) return false;
 
   if (f.windLoad > door.windLoad) return false;
 
