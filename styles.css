@@ -41,18 +41,16 @@ h1 {
 
 .door-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 28px;
   margin-top: 50px;
 
 }
 
-/* CARD LIST ITEM */
 .door-card {
   list-style: none;
 }
 
-/* CARD CONTAINER */
 .card {
   background: #ffffff;
   border-radius: 14px;
@@ -66,20 +64,17 @@ h1 {
   height: 100%;
 }
 
-/* HOVER EFFECT */
 .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* IMAGE CONTAINER */
 .card-image {
   display: block;
   overflow: hidden;
   position: relative;
 }
 
-/* IMAGE */
 .card-image img {
   width: 100%;
   height: 230px;
@@ -87,12 +82,10 @@ h1 {
   transition: transform 0.5s ease;
 }
 
-/* IMAGE ZOOM */
 .card:hover .card-image img {
   transform: scale(1.08);
 }
 
-/* CARD BODY */
 .card-body {
   padding: 20px;
   display: flex;
@@ -101,12 +94,10 @@ h1 {
   flex-grow: 1;
 }
 
-/* HEADER */
 .card-header {
   margin-bottom: 18px;
 }
 
-/* TITLE */
 .card-title {
   font-size: 1.2rem;
   font-weight: 600;
@@ -114,14 +105,12 @@ h1 {
   color: #1e293b;
 }
 
-/* MODEL CODE */
 .card-model {
   font-size: 0.85rem;
   color: #64748b;
   letter-spacing: 0.5px;
 }
 
-/* BUTTON */
 .card-button {
   display: inline-block;
   text-align: center;
@@ -135,7 +124,6 @@ h1 {
   transition: all 0.25s ease;
 }
 
-/* BUTTON HOVER */
 .card-button:hover {
   background: #2563eb;
   transform: translateY(-2px);
