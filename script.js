@@ -10,8 +10,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-30.jpg",
   },
   {
     modelCode: "S-5",
@@ -24,8 +26,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/06/10.jpg",
   },
   {
     modelCode: "S-6",
@@ -38,8 +41,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
   {
     modelCode: "RB-1",
@@ -52,8 +56,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: "robot",
+    specialUsage: "robot",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
   },
   {
     modelCode: "RB-5",
@@ -66,8 +71,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "robot",
+    specialUsage: "robot",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
   },
   {
     modelCode: "RBG-5",
@@ -80,8 +86,9 @@ const MODELS = [
     hasSafety: true,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "robot",
+    specialUsage: "robot",
     location: "both",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
   },
   {
     modelCode: "PF-1",
@@ -94,8 +101,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: "pharma-food",
+    specialUsage: "pharma_food",
     location: "indoor",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw_izolasyonlu_kapilar_35-scaled.jpg",
   },
   {
     modelCode: "PF-5",
@@ -108,8 +117,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "pharma-food",
+    specialUsage: "pharma_food",
     location: "indoor",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw_izolasyonlu_kapilar_35-scaled.jpg",
   },
   {
     modelCode: "CK-1",
@@ -122,8 +133,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: "conveyor",
+    specialUsage: "conveyor",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/16-1.jpg",
   },
   {
     modelCode: "CK-5",
@@ -136,8 +148,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: "conveyor",
+    specialUsage: "conveyor",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/16-1.jpg",
   },
   {
     modelCode: "I-1",
@@ -150,8 +163,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/03/Izolasyonlu-Kapilar.jpg",
   },
   {
     modelCode: "I-5",
@@ -164,8 +179,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/03/Izolasyonlu-Kapilar.jpg",
   },
   {
     modelCode: "K-1",
@@ -178,8 +195,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/03/Katlanir-Kapilar.jpg",
   },
   {
     modelCode: "K-5",
@@ -192,8 +211,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/03/Katlanir-Kapilar.jpg",
   },
   {
     modelCode: "E-5",
@@ -206,8 +227,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/11/paw_fermuarli_kapilar_36.jpg",
   },
   {
     modelCode: "ZF-1",
@@ -220,8 +243,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/11/paw_fermuarli_kapilar_36.jpg",
   },
   {
     modelCode: "ZF-5",
@@ -234,8 +259,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/11/paw_fermuarli_kapilar_36.jpg",
   },
   {
     modelCode: "ZE-1",
@@ -248,8 +275,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/24.jpg",
   },
   {
     modelCode: "ZE-5",
@@ -262,8 +290,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/24.jpg",
   },
   {
     modelCode: "ID-1",
@@ -276,8 +305,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
   {
     modelCode: "ID-5",
@@ -290,8 +320,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
   {
     modelCode: "SI-1",
@@ -304,8 +335,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
   {
     modelCode: "SI-5",
@@ -318,8 +350,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
   {
     modelCode: "SG-1",
@@ -332,8 +365,10 @@ const MODELS = [
     hasSafety: true,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-17-scaled.jpg",
   },
   {
     modelCode: "POWER XL",
@@ -346,8 +381,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/hangar-kapi-power-xl-02.jpg",
   },
   {
     modelCode: "EZ-8010",
@@ -360,8 +397,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/03/Paw-Turbo-Sipiral-Kapilar-1.jpg",
   },
   {
     modelCode: "EZ-8020",
@@ -374,8 +413,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/2.jpg",
   },
   {
     modelCode: "EZ-8030",
@@ -388,8 +428,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/3.jpg",
   },
   {
     modelCode: "MAXI",
@@ -402,8 +443,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/WhatsApp-Gorsel-2025-11-11-saat-16.19.14_2ee89ab4.jpg",
   },
   {
     modelCode: "K-6",
@@ -416,8 +459,10 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/03/Katlanir-Kapilar.jpg",
   },
   {
     modelCode: "SG-5",
@@ -430,8 +475,10 @@ const MODELS = [
     hasSafety: true,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "both",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-17-scaled.jpg",
   },
   {
     modelCode: "IDR-1",
@@ -444,8 +491,9 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: false,
     usageFrequency: "low",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
   {
     modelCode: "IDR-5",
@@ -458,10 +506,12 @@ const MODELS = [
     hasSafety: false,
     hasSpeedControl: true,
     usageFrequency: "high",
-    specialUse: null,
+    specialUsage: "none",
     location: "indoor",
+    imgSrc: "https://placehold.co/600x400",
   },
 ];
+
 
 const displayDoors = (compatibleDoors) => {
   const gridDisplay = document.getElementById("door-container");
