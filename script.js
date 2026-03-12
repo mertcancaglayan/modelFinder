@@ -463,6 +463,20 @@ const MODELS = [
   },
 ];
 
+const displayDoors = (compatibleDoors) => {
+  const gridDisplay = document.getElementById("door-container");
+  gridDisplay.innerHTML = ""
+
+  const list = document.createElement("ol");
+  list.innerHTML = compatibleDoors
+    .map((door) => {
+      return `<li>${door.name}</li>`;
+    })
+    .join("");
+
+  gridDisplay.appendChild(list)
+};
+
 const getInputValues = () => ({
   width: Number(document.getElementById("width-input").value) || 0,
   height: Number(document.getElementById("height-input").value) || 0,
@@ -498,11 +512,12 @@ const isCompatible = (door, f) => {
     return false;
   }
 
-  if (f.frequencyUsage !== door.usageFrequency && !f.hasSpeedControl) return false;
+  if (f.frequencyUsage !== door.usageFrequency && !f.hasSpeedControl)
+    return false;
 
-  if (f.specialUsage && f.specialUsage !== door.specialUse ) return false;
+  if (f.specialUsage && f.specialUsage !== door.specialUse) return false;
 
-  if (f.windLoad > door.windLoad) return false
+  if (f.windLoad > door.windLoad) return false;
 
   return true;
 };
@@ -513,6 +528,8 @@ const filterModels = () => {
   const compatibleDoors = MODELS.filter((door) =>
     isCompatible(door, filterValues),
   );
+
+  displayDoors(compatibleDoors);
 
   console.log(compatibleDoors);
 };
