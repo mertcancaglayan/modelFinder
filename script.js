@@ -524,7 +524,7 @@ const displayDoors = (compatibleDoors) => {
     
     <a href="https://paw.com.tr" class="card-image">
       <img 
-        src="https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-31.jpg" 
+        src="${door.imgSrc}" 
         alt="${door.name}"
         loading="lazy"
       />
