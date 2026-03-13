@@ -48,20 +48,21 @@ body::before {
   top: 0;
   left: 0;
   z-index: 999;
-background:
-  url("https://ezerkapi.com/wp-content/uploads/2026/02/paw-doors-260x60-1.png") center bottom 20px / 300px no-repeat,
-  linear-gradient(
-    to bottom,
-    transparent calc(100% - 100px),
-    var(--border) calc(100% - 100px)
-  ),
-  repeating-linear-gradient(
-    180deg,
-    var(--accent) 0px,
-    var(--accent) 20px,
-    var(--accent-dim) 20px,
-    var(--accent-dim) 24px
-  );
+  background:
+    url("https://ezerkapi.com/wp-content/uploads/2026/02/paw-doors-260x60-1.png")
+      center bottom 20px / 300px no-repeat,
+    linear-gradient(
+      to bottom,
+      transparent calc(100% - 100px),
+      var(--border) calc(100% - 100px)
+    ),
+    repeating-linear-gradient(
+      180deg,
+      var(--accent) 0px,
+      var(--accent) 20px,
+      var(--accent-dim) 20px,
+      var(--accent-dim) 24px
+    );
 
   animation: shutterUp 3.2s ease forwards;
 }
@@ -162,6 +163,17 @@ header p {
 .input-group select:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px #d4400a1a;
+}
+
+.input-group input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
 }
 
 .input-group select {
@@ -276,8 +288,7 @@ header p {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: var(--radius);
-  transition:
-    color 0.15s;
+  transition: color 0.15s;
 }
 
 .card-button::after {
@@ -310,8 +321,6 @@ header p {
 }
 
 @media (max-width: 640px) {
-
-
   header h1 {
     font-size: 28px;
   }
