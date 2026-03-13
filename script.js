@@ -1,7 +1,10 @@
 const MODELS = [
   {
     modelCode: "S-1",
-    name: "EKO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "EKO SARMAL HIZLI PVC KAPI",
+      en: "ECO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -17,7 +20,10 @@ const MODELS = [
   },
   {
     modelCode: "S-5",
-    name: "PRO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "PRO SARMAL HIZLI PVC KAPI",
+      en: "PRO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -32,7 +38,10 @@ const MODELS = [
   },
   {
     modelCode: "S-6",
-    name: "PRO-HS SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "PRO-HS SARMAL HIZLI PVC KAPI",
+      en: "PRO-HS Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -47,7 +56,10 @@ const MODELS = [
   },
   {
     modelCode: "RB-1",
-    name: "ROBOT GİRİŞ-ÇIKIŞ EKO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "ROBOT GİRİŞ-ÇIKIŞ EKO SARMAL HIZLI PVC KAPI",
+      en: "Robot Front ECO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -62,7 +74,10 @@ const MODELS = [
   },
   {
     modelCode: "RB-5",
-    name: "ROBOT GİRİŞ-ÇIKIŞ PRO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "ROBOT GİRİŞ-ÇIKIŞ PRO SARMAL HIZLI PVC KAPI",
+      en: "Robot Front PRO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -77,7 +92,10 @@ const MODELS = [
   },
   {
     modelCode: "RBG-5",
-    name: "GUARD ROBOT SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "GUARD ROBOT SARMAL HIZLI PVC KAPI",
+      en: "GUARD ROBOT Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -92,7 +110,10 @@ const MODELS = [
   },
   {
     modelCode: "PF-1",
-    name: "İLAÇ-GIDA EKO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "İLAÇ-GIDA EKO SARMAL HIZLI PVC KAPI",
+      en: "Pharma-Food ECO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -108,7 +129,10 @@ const MODELS = [
   },
   {
     modelCode: "PF-5",
-    name: "İLAÇ-GIDA PRO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "İLAÇ-GIDA PRO SARMAL HIZLI PVC KAPI",
+      en: "Pharma-Food PRO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -124,7 +148,10 @@ const MODELS = [
   },
   {
     modelCode: "CK-1",
-    name: "KONVEYÖR GİRİŞ-ÇIKIŞ EKO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "KONVEYÖR GİRİŞ-ÇIKIŞ EKO SARMAL HIZLI PVC KAPI",
+      en: "Conveyor Front ECO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -139,7 +166,10 @@ const MODELS = [
   },
   {
     modelCode: "CK-5",
-    name: "KONVEYÖR GİRİŞ-ÇIKIŞ PRO SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "KONVEYÖR GİRİŞ-ÇIKIŞ PRO SARMAL HIZLI PVC KAPI",
+      en: "Conveyor Front PRO Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -154,7 +184,10 @@ const MODELS = [
   },
   {
     modelCode: "I-1",
-    name: "EKO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "EKO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+      en: "ECO Isolated Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -170,7 +203,10 @@ const MODELS = [
   },
   {
     modelCode: "I-5",
-    name: "PRO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "PRO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+      en: "PRO Isolated Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -186,7 +222,10 @@ const MODELS = [
   },
   {
     modelCode: "K-1",
-    name: "EKO KATLANIR HIZLI PVC KAPI",
+    name: {
+      tr: "EKO KATLANIR HIZLI PVC KAPI",
+      en: "ECO Fold-Up High-Speed PVC Door",
+    },
     maxWidth: 12000,
     maxHeight: 12000,
     minInteriorTemp: 0,
@@ -202,7 +241,10 @@ const MODELS = [
   },
   {
     modelCode: "K-5",
-    name: "PRO KATLANIR HIZLI PVC KAPI",
+    name: {
+      tr: "PRO KATLANIR HIZLI PVC KAPI",
+      en: "PRO Fold-Up High-Speed PVC Door",
+    },
     maxWidth: 12000,
     maxHeight: 12000,
     minInteriorTemp: 0,
@@ -218,7 +260,10 @@ const MODELS = [
   },
   {
     modelCode: "E-5",
-    name: "KENDİNİ TAMİR EDEN SARMAL",
+    name: {
+      tr: "KENDİNİ TAMİR EDEN SARMAL",
+      en: "Self-Repair Roll-Up",
+    },
     maxWidth: 5000,
     maxHeight: 5000,
     minInteriorTemp: 0,
@@ -234,7 +279,10 @@ const MODELS = [
   },
   {
     modelCode: "ZF-1",
-    name: "FERMUARLI SARMAL PVC",
+    name: {
+      tr: "FERMUARLI SARMAL PVC ECO",
+      en: "Zipper Roll-Up PVC ECO",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -250,7 +298,10 @@ const MODELS = [
   },
   {
     modelCode: "ZF-5",
-    name: "FERMUARLI SARMAL PVC",
+    name: {
+      tr: "FERMUARLI SARMAL PVC PRO",
+      en: "Zipper Roll-Up PVC PRO",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -266,7 +317,10 @@ const MODELS = [
   },
   {
     modelCode: "ZE-1",
-    name: "ACİL ÇIKIŞLI SARMAL PVC",
+    name: {
+      tr: "ACİL ÇIKIŞLI SARMAL PVC EKO",
+      en: "Emergency Exit Roll-Up PVC Eco",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -281,7 +335,10 @@ const MODELS = [
   },
   {
     modelCode: "ZE-5",
-    name: "ACİL ÇIKIŞLI SARMAL PVC",
+    name: {
+      tr: "ACİL ÇIKIŞLI SARMAL PVC PRO",
+      en: "Emergency Exit Roll-Up PVC PRO",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -296,7 +353,10 @@ const MODELS = [
   },
   {
     modelCode: "ID-1",
-    name: "EKO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "EKO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+      en: "ECO Isolated Double PVC Roll-Up High-Speed Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: -15,
@@ -311,7 +371,10 @@ const MODELS = [
   },
   {
     modelCode: "ID-5",
-    name: "PRO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "PRO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+      en: "PRO Isolated Double PVC Roll-Up High-Speed Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: -15,
@@ -326,7 +389,10 @@ const MODELS = [
   },
   {
     modelCode: "SI-1",
-    name: "EKO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "EKO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+      en: "ECO Isolated Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -341,7 +407,10 @@ const MODELS = [
   },
   {
     modelCode: "SI-5",
-    name: "PRO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "PRO İZOLASYONLU SARMAL HIZLI PVC KAPI",
+      en: "PRO Isolated Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 4000,
     maxHeight: 6500,
     minInteriorTemp: 0,
@@ -356,7 +425,10 @@ const MODELS = [
   },
   {
     modelCode: "SG-1",
-    name: "EKO GUARD İÇİ DOLGULU SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "EKO GUARD İÇİ DOLGULU SARMAL HIZLI PVC KAPI",
+      en: "ECO GUARD Filled Inside Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 6200,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -372,7 +444,10 @@ const MODELS = [
   },
   {
     modelCode: "POWER XL",
-    name: "PAW POWER XL",
+    name: {
+      tr: "PAW POWER XL",
+      en: "PAW POWER XL",
+    },
     maxWidth: 13000,
     maxHeight: 12000,
     minInteriorTemp: 0,
@@ -388,7 +463,10 @@ const MODELS = [
   },
   {
     modelCode: "EZ-8010",
-    name: "PAW-TURBO TAM GÖRÜŞLÜ KAPILAR",
+    name: {
+      tr: "PAW-TURBO TAM GÖRÜŞLÜ KAPILAR",
+      en: "PAW-TURBO Full View Doors",
+    },
     maxWidth: 6000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -404,7 +482,7 @@ const MODELS = [
   },
   {
     modelCode: "EZ-8020",
-    name: "PAW-TURBO PANEL KAPILAR",
+    name: { tr: "PAW-TURBO PANEL KAPILAR", en: "PAW-TURBO PANEL Doors" },
     maxWidth: 6000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -419,7 +497,7 @@ const MODELS = [
   },
   {
     modelCode: "EZ-8030",
-    name: "PAW-TURBO BRANDA KAPILAR",
+    name: { tr: "PAW-TURBO BRANDA KAPILAR", en: "PAW-TURBO Tarpaulin Doors" },
     maxWidth: 6000,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -434,7 +512,10 @@ const MODELS = [
   },
   {
     modelCode: "MAXI",
-    name: "PAW MAXI XL HANGAR KAPISI",
+    name: {
+      tr: "PAW MAXI XL HANGAR KAPISI",
+      en: "PAW MAXI XL HANGAR Door",
+    },
     maxWidth: 20000,
     maxHeight: 15000,
     minInteriorTemp: 0,
@@ -450,7 +531,10 @@ const MODELS = [
   },
   {
     modelCode: "K-6",
-    name: "ÇİFT HALATLI PRO KATLANIR HIZLI PVC KAPI",
+    name: {
+      tr: "ÇİFT HALATLI PRO KATLANIR HIZLI PVC KAPI",
+      en: "Double Rope Pro Fold-Up High-Speed PVC Door",
+    },
     maxWidth: 12000,
     maxHeight: 12000,
     minInteriorTemp: 0,
@@ -466,7 +550,10 @@ const MODELS = [
   },
   {
     modelCode: "SG-5",
-    name: "PRO GUARD İÇİ DOLGULU SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "PRO GUARD İÇİ DOLGULU SARMAL HIZLI PVC KAPI",
+      en: "PRO GUARD Filled Roll-Up High-Speed PVC Door",
+    },
     maxWidth: 6200,
     maxHeight: 6000,
     minInteriorTemp: 0,
@@ -482,7 +569,10 @@ const MODELS = [
   },
   {
     modelCode: "IDR-1",
-    name: "REZİSTANSLI EKO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "REZİSTANSLI EKO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+      en: "ECO Isolated Double Tarpaulin Roll-Up High-Speed PVC Door With Resistance",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: -25,
@@ -497,7 +587,10 @@ const MODELS = [
   },
   {
     modelCode: "IDR-5",
-    name: "REZİSTANSLI PRO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+    name: {
+      tr: "REZİSTANSLI PRO İZOLASYONLU ÇİFT CİDARLI BRANDALI SARMAL HIZLI PVC KAPI",
+      en: "PRO Isolated Double Tarpaulin Roll-Up High-Speed PVC Door With Resistance",
+    },
     maxWidth: 4000,
     maxHeight: 6000,
     minInteriorTemp: -25,
@@ -512,36 +605,47 @@ const MODELS = [
   },
 ];
 
+const languageSelect = document.getElementById("language-selection");
+
+const getLang = () => {
+  return languageSelect.value || localStorage.getItem("pawSiteLang");
+};
+
+languageSelect.addEventListener("change", (e) => {
+  filterModels();
+});
+
+const buttonText = {
+  en: "View Details",
+  tr: "Detayları Gör",
+};
+
 const displayDoors = (compatibleDoors) => {
+  const lang = getLang();
+
   const gridDisplay = document.getElementById("door-container");
   gridDisplay.innerHTML = "";
 
   gridDisplay.innerHTML = compatibleDoors
     .map((door) => {
       return `
-  <article class="card">
-    
-    <a href="https://paw.com.tr" class="card-image">
-      <img 
-        src="${door.imgSrc}" 
-        alt="${door.name}"
-        loading="lazy"
-      />
-    </a>
+          <article class="card">
+            <a href="https://paw.com.tr" class="card-image">
+              <img src="${door.imgSrc}" alt="${door.name[lang]}" loading="lazy" />
+            </a>
 
-    <div class="card-body">
-      <div class="card-header">
-        <h3 class="card-title">${door.name}</h3>
-        <span class="card-model">${door.modelCode}</span>
-      </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3 class="card-title">${door.name[lang]}</h3>
+                <span class="card-model">${door.modelCode}</span>
+              </div>
 
-      <a href="https://paw.com.tr" class="card-button">
-        View Details
-      </a>
-    </div>
-
-  </article>
-`;
+              <a href="https://paw.com.tr" class="card-button">
+                ${buttonText[lang]}
+              </a>
+            </div>
+          </article>
+            `;
     })
     .join("");
 };
