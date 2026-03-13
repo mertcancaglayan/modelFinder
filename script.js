@@ -512,7 +512,6 @@ const MODELS = [
   },
 ];
 
-
 const displayDoors = (compatibleDoors) => {
   const gridDisplay = document.getElementById("door-container");
   gridDisplay.innerHTML = "";
@@ -561,27 +560,33 @@ const getInputValues = () => ({
 });
 
 const isCompatible = (door, f) => {
-  if (f.width < 0 || f.width > door.maxWidth) return false;
-  if (f.height < 0 || f.height > door.maxHeight) return false;
+  const invalidWidth = f.width < 0 || f.width > door.maxWidth;
+  if (invalidWidth) return false;
 
-  if (f.indoorTemp < door.minInteriorTemp) return false;
-  if (f.outdoorTemp < door.minExteriorTemp) return false;
+  const invalidHeight = f.height < 0 || f.height > door.maxHeight;
+  if (invalidHeight) return false;
+
+  const interiorTooCold = f.indoorTemp < door.minInteriorTemp;
+  if (interiorTooCold) return false;
+
+  const exteriorTooCold = f.outdoorTemp < door.minExteriorTemp;
+  if (exteriorTooCold) return false;
 
   if (f.hasSafety && !door.hasSafety) return false;
 
   if (f.hasSpeedControl !== door.hasSpeedControl) return false;
 
-  if (
+  const incompatibleLocation =
     f.doorLocation !== "both" &&
     door.location !== "both" &&
-    f.doorLocation !== door.location
-  ) {
-    return false;
-  }
+    f.doorLocation !== door.location;
 
-  if (f.frequencyUsage !== door.usageFrequency && !f.hasSpeedControl) {
-    return false;
-  }
+  if (incompatibleLocation) return false;
+
+  const frequencyMismatch =
+    f.frequencyUsage !== door.usageFrequency && !f.hasSpeedControl;
+
+  if (frequencyMismatch) return false;
 
   if (f.specialUsage !== door.specialUsage) return false;
 
@@ -598,8 +603,6 @@ const filterModels = () => {
   );
 
   displayDoors(compatibleDoors);
-
-  console.log(compatibleDoors);
 };
 
 const addEventListeners = () => {
