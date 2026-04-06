@@ -16,7 +16,7 @@ const MODELS = [
     specialUsage: "none",
     location: "indoor",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-30.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-sarmal-kapi-ic-mekan-kontrollu-gecis-kapisi.jpg",
   },
   {
     modelCode: "S-5",
@@ -34,7 +34,8 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "none",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/06/10.jpg",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-sarmal-kapi-ic-mekan-kontrollu-gecis-kapisi.jpg",
   },
   {
     modelCode: "S-6",
@@ -52,7 +53,8 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "none",
     location: "indoor",
-    imgSrc: "https://placehold.co/600x400",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-sarmal-kapi-ic-mekan-kontrollu-gecis-kapisi.jpg",
   },
   {
     modelCode: "RB-1",
@@ -70,7 +72,8 @@ const MODELS = [
     usageFrequency: "low",
     specialUsage: "robot",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
   },
   {
     modelCode: "RB-5",
@@ -88,7 +91,8 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "robot",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/05/paw-rb5-robot-onu-kapi-kirmizi-hizli-pvc-kapi.jpg",
   },
   {
     modelCode: "RBG-5",
@@ -106,7 +110,8 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "robot",
     location: "both",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/12-1.jpg",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/robot-onu-moduler-kabin-kapisi-360-koruma-hizli-pvc-kapi.jpg",
   },
   {
     modelCode: "PF-1",
@@ -125,7 +130,7 @@ const MODELS = [
     specialUsage: "pharma_food",
     location: "indoor",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/paw_izolasyonlu_kapilar_35-scaled.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/soguk-hava-deposu-yuksek-hizli-pvc-sarmal-kapi-scaled.jpg",
   },
   {
     modelCode: "PF-5",
@@ -144,7 +149,7 @@ const MODELS = [
     specialUsage: "pharma_food",
     location: "indoor",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/paw_izolasyonlu_kapilar_35-scaled.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/soguk-hava-deposu-yuksek-hizli-pvc-sarmal-kapi-scaled.jpg",
   },
   {
     modelCode: "CK-1",
@@ -162,7 +167,8 @@ const MODELS = [
     usageFrequency: "low",
     specialUsage: "conveyor",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/16-1.jpg",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/05/konveyor-kapisi-sari-hizli-pvc-otomasyon-kapi.jpg",
   },
   {
     modelCode: "CK-5",
@@ -180,7 +186,8 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "conveyor",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/16-1.jpg",
+    imgSrc:
+      "https://paw.com.tr/wp-content/uploads/2024/09/robot-onu-kapi-konveyor-hatti-hizli-pvc-kapi.jpeg",
   },
   {
     modelCode: "I-1",
@@ -199,7 +206,7 @@ const MODELS = [
     specialUsage: "none",
     location: "indoor",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/03/Izolasyonlu-Kapilar.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/gozetleme-pencereli-yuksek-hizli-branda-kapi-sistemi-scaled.jpg",
   },
   {
     modelCode: "I-5",
@@ -218,7 +225,7 @@ const MODELS = [
     specialUsage: "none",
     location: "indoor",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/03/Izolasyonlu-Kapilar.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/yan-yana-hizli-pvc-branda-kapi-sistemleri.jpg",
   },
   {
     modelCode: "K-1",
@@ -256,7 +263,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/03/Katlanir-Kapilar.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/katlanir_kapi_01.jpg",
   },
   {
     modelCode: "E-5",
@@ -275,7 +282,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/11/paw_fermuarli_kapilar_36.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-zipper-kirmizi-fermuarli-hizli-pvc-kapi-acik-gecis-depo.jpg",
   },
   {
     modelCode: "ZF-1",
@@ -294,7 +301,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/11/paw_fermuarli_kapilar_36.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-zipper-kirmizi-fermuarli-hizli-pvc-kapi-acik-gecis-depo.jpg",
   },
   {
     modelCode: "ZF-5",
@@ -313,7 +320,7 @@ const MODELS = [
     specialUsage: "none",
     location: "indoor",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/11/paw_fermuarli_kapilar_36.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw_fermuarli_kapilar_6.jpg",
   },
   {
     modelCode: "ZE-1",
@@ -331,7 +338,7 @@ const MODELS = [
     usageFrequency: "low",
     specialUsage: "none",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/24.jpg",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/09/Fermuarli-Acil-Cikis-Kapilari-acil_cikis_kapilar_07.jpg",
   },
   {
     modelCode: "ZE-5",
@@ -349,7 +356,7 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "none",
     location: "indoor",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/24.jpg",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/09/yesil-fermuarli-acil-cikis-kapisi-endustriyel.jpg",
   },
   {
     modelCode: "ID-1",
@@ -367,7 +374,7 @@ const MODELS = [
     usageFrequency: "low",
     specialUsage: "none",
     location: "indoor",
-    imgSrc: "https://placehold.co/600x400",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/09/endustriyel-is-guvenligi-uyumlu-yuksek-hizli-branda-kapi.jpg",
   },
   {
     modelCode: "ID-5",
@@ -385,7 +392,7 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "none",
     location: "indoor",
-    imgSrc: "https://placehold.co/600x400",
+    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/09/raf-sistemi-uyumlu-yuksek-hizli-pvc-depo-kapisi-scaled.jpg",
   },
   {
     modelCode: "SI-1",
@@ -440,7 +447,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-17-scaled.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-sg5-guvenlikli-sarmal-kapi-sari-seritli-ic-mekan-pencereli.jpg",
   },
   {
     modelCode: "POWER XL",
@@ -459,7 +466,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/hangar-kapi-power-xl-02.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/power-xl-hangar-kapisi-ucak-hangar-buyuk-aciklik.jpg",
   },
   {
     modelCode: "EZ-8010",
@@ -478,7 +485,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/03/Paw-Turbo-Sipiral-Kapilar-1.jpg",
+      "https://pawdoors.com/wp-content/uploads/2024/05/1.jpg",
   },
   {
     modelCode: "EZ-8020",
@@ -493,7 +500,7 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "none",
     location: "both",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/2.jpg",
+    imgSrc: "https://pawdoors.com/wp-content/uploads/2024/05/2.jpg",
   },
   {
     modelCode: "EZ-8030",
@@ -508,7 +515,7 @@ const MODELS = [
     usageFrequency: "high",
     specialUsage: "none",
     location: "both",
-    imgSrc: "https://paw.com.tr/wp-content/uploads/2024/05/3.jpg",
+    imgSrc: "https://pawdoors.com/wp-content/uploads/2024/05/3.jpg",
   },
   {
     modelCode: "MAXI",
@@ -527,7 +534,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/WhatsApp-Gorsel-2025-11-11-saat-16.19.14_2ee89ab4.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-maxi-hangar-kapisi-ucak-hangari.jpg",
   },
   {
     modelCode: "K-6",
@@ -565,7 +572,7 @@ const MODELS = [
     specialUsage: "none",
     location: "both",
     imgSrc:
-      "https://paw.com.tr/wp-content/uploads/2024/09/sarmal-kapilar-17-scaled.jpg",
+      "https://paw.com.tr/wp-content/uploads/2024/09/paw-sg5-guvenlikli-sarmal-kapi-genis-aciklik-sari-seritli.jpg",
   },
   {
     modelCode: "IDR-1",
